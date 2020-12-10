@@ -6,7 +6,6 @@ group = 'com.moowork.gradle'
 
 apply plugin: 'idea'
 apply plugin: 'groovy'
-apply plugin: 'maven'
 apply plugin: 'maven-publish'
 apply plugin: 'java-gradle-plugin'
 apply from: "$rootDir/gradle/additional-artifacts.gradle"

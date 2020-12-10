@@ -76,12 +76,12 @@ class NpmSetupTask
         return getConfig().variant
     }
 
+    @Input
     List<?> getArgs()
     {
         return this.args
     }
 
-    @Internal
     void setArgs( final Iterable<?> value )
     {
         this.args = value.toList()
